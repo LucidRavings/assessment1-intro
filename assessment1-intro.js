@@ -131,16 +131,16 @@ let price = [10, 5, 6];
 */
 
 //CODE HERE
-let total = null
+let totalPrice = null
 for(i = 0; i < price.length; i++){
-total = total + price[i]
-}console.log("The total price is: " + total)
+totalPrice = totalPrice + price[i]
+}console.log("The total price is: " + totalPrice)
 
 
 /* 
     Using the 'totalPrice,' find the average of 'price.'
 */
-
+let average = totalPrice / price.length
 
 
 // !!! Don't edit the code below !!! //
@@ -152,7 +152,15 @@ let colors = ['red', 'green', 'yellow', 'red', 'green']
 */
 
 // CODE HERE
-
+for (i = 0; i < colors.length; i++){
+    if(colors[i] === 'red'){
+        console.log('apple')
+    }else if(colors[i] === 'green'){
+        console.log('melon')
+    }else if(colors[i] === 'yellow'){
+        console.log('banana')
+    }
+}
 
 
 // ***** Software Development Life Cycle (SDLC) ***** //
